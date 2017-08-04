@@ -10,7 +10,8 @@ libraryDependencies ++= Seq(
   "com.typesafe.slick" %% "slick" % "3.2.1",
   "com.h2database" % "h2" % "1.4.196",
   "com.danielasfregola" %% "random-data-generator" % "2.1",
-  "org.slf4j" % "slf4j-nop" % "1.7.25"
+  "org.slf4j" % "slf4j-nop" % "1.7.25",
+  "com.typesafe.akka" %% "akka-stream" % "2.5.3"
 )
 
 enablePlugins(JmhPlugin)
